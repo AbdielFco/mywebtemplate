@@ -1,1 +1,7 @@
+body {
+  font-size: 80px;
+}
 
+header, main, footer {
+  padding: 15px;
+}
