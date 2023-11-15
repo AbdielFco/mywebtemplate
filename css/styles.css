@@ -33,6 +33,11 @@ body {
     /* Estilos para el título si es necesario */
 }
 
+.hamburger-icon {
+    display: none; /* Ocultar el icono de hamburguesa por defecto en dispositivos de escritorio */
+    cursor: pointer;
+}
+
 .menu {
     display: flex;
 }
