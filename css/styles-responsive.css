@@ -3,13 +3,17 @@
         font-size: 14px;
     }
 
-    header, main, footer {
+    .header, .main, .footer {
         padding: 10px;
     }
 
-    .menu {
+    .title-and-menu {
         flex-direction: column;
         text-align: center;
+    }
+
+    .menu {
+        margin-top: 10px;
     }
 
     .menu-item {
