@@ -14,10 +14,10 @@ body {
     min-height: 100vh;
 }
 
-/*.header, .main, .footer {
-    padding: 20px;
+.header, .main, .footer {
+    padding: 10px;
     text-align: center;
-}*/
+}
 
 .header {
     background-color: #333;
@@ -33,6 +33,11 @@ body {
 
 .title {
     /* Estilos para el título si es necesario */
+}
+
+.hamburger-icon {
+    display: none; /* Ocultar el icono de hamburguesa por defecto en dispositivos de escritorio */
+    cursor: pointer;
 }
 
 .menu {
@@ -63,7 +68,5 @@ body {
 }
 
 /* ... Otros estilos ... */
-.hamburger-icon {
-    display: none; /* Ocultar el icono de hamburguesa en dispositivos pc */
-}
+
 
