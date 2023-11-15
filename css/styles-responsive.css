@@ -1,3 +1,5 @@
+/* Estilos responsivos */
+
 @media only screen and (max-width: 600px) {
     body {
         font-size: 14px;
@@ -14,10 +16,21 @@
 
     .menu {
         margin-top: 10px;
+        display: none; /* Ocultar el menú por defecto en dispositivos móviles */
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .menu.active {
+        display: flex; /* Mostrar el menú cuando la clase active está presente */
     }
 
     .menu-item {
         margin-right: 0;
         margin-bottom: 10px;
     }    
+
+    .hamburger-icon {
+        display: block; /* Mostrar el icono de hamburguesa en dispositivos móviles */
+    }
 }
